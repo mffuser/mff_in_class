@@ -214,6 +214,12 @@ profile on
 
 data = getPrices(dateBeg, dateEnd, daxComp);
 
+%% get returns
+
+logRets = price2retWithHolidays(data);
+
+
+
 
 
 
